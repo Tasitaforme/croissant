@@ -1,0 +1,87 @@
+.font-display {
+  font-family: "Playfair Display", serif;
+}
+.font-red-hat-display {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.header-recipes {
+  background: linear-gradient(273deg, #ffedb4, #ffcf86);
+  background-size: 400% 400%;
+
+  animation: AnimationName 5s ease infinite;
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.recipe-img {
+  max-height: 500px;
+}
+@media screen and (max-width: 576px) {
+  .recipe-img {
+    max-height: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+.header-history {
+  background-image: url("/images/croissants-line.png");
+  animation: animation-pattern 120s linear infinite;
+  background-size: cover;
+  min-height: 400px;
+}
+.header-home {
+  background-image: url("/images/croissants-old-wood-table-sq.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  min-height: 300px;
+}
+
+@media screen and (min-width: 576px) {
+  .header-home,
+  .header-history {
+    min-height: 500px;
+  }
+}
+
+@keyframes animation-pattern {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.custom-gradient {
+  background: linear-gradient(273deg, #eef4fd, #fdfdff);
+  background-size: 400% 400%;
+
+  animation: blue-bg 5s ease infinite;
+}
+
+@keyframes blue-bg {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
