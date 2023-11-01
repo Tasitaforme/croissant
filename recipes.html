@@ -3,13 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Unlock the secrets to perfect croissants with our curated collection of delectable croissant recipes. Explore step-by-step guides, tips, and more to master the art of homemade croissants in your own kitchen."
+    />
+
+    <meta
+      name="keywords"
+      content="bakery croissant recipes, gourmet croissants, artisan croissants, freshly baked pastries, bakery-style croissants, baked goods recipes, homemade bakery croissants, bakery secrets, flaky croissant recipes, croissants from the bakery"
+    />
+    <meta name="robots" content="index, follow" />
+
+    <meta
+      property="og:title"
+      content="Croissant recipes &#183; Сroissantsforyou.com.ua"
+    />
+    <meta
+      property="og:description"
+      content="Unlock the secrets to perfect croissants with our curated collection of delectable croissant recipes."
+    />
+    <meta property="og:image" content="/images/recipes-header-woman.jpg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;800;900&family=Red+Hat+Display:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;800;900&family=Red+Hat+Display:wght@400;500;700&family=Caveat:wght@700&display=swap"
       rel="stylesheet"
     />
-    <title>Croissant recipes</title>
+    <title>Croissant recipes &#183; Сroissantsforyou.com.ua</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,14 +65,11 @@
   </head>
 
   <body>
-    <header class="header-recipes pb-5">
-      <nav class="font-red-hat-display navbar navbar-expand-md navbar-light">
+    <header class="header-gradient-bg position-relative">
+      <nav class="font-red-hat-display navbar navbar-expand-md">
         <div class="container">
-          <a class="navbar-brand" href="/"
-            ><img src="/images/icon.svg" alt="icon" width="40"
-          /></a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler ms-auto"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
@@ -42,38 +84,60 @@
             id="navbarNavAltMarkup"
           >
             <div class="navbar-nav">
-              <a class="nav-link" href="/">Home</a>
-              <a class="nav-link" href="/history.html">History</a>
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="/"
+                title="Homemade croissants"
+                >Home</a
+              >
               <a
                 class="nav-link active"
-                aria-current="page"
                 href="/recipes.html"
+                title="Croissant recipes"
                 >Recipes</a
+              >
+              <a
+                class="nav-link"
+                href="/contacts.html"
+                title="Croissant bakery contacts"
+                >Contacts</a
               >
             </div>
           </div>
         </div>
       </nav>
-      <div class="container mt-3 mb-3 text-center">
+
+      <div class="container mt-2 mb-5 text-center">
         <h1 class="font-display mb-3">Croissant recipes</h1>
-        <button type="button" class="btn btn-outline-dark">Order</button>
+        <button type="button" class="btn btn-dark mb-3">Order desserts</button>
+        <p class="font-handwriting h4 mb-3">
+          "Free yourself from the hard work in the kitchen and discover true
+          indulgence! <br />Experience the tenderness and aroma of croissants
+          right now!"
+        </p>
+        <img
+          src="/images/recipes-header-woman.jpg"
+          class="img-fluid header-contacts-img rounded-top-circle p-3 border border-black border-opacity-25"
+          alt="A woman with croissant"
+        />
       </div>
+      <div class="banner-wave-bottom"></div>
     </header>
-    <main class="">
-      <div class="font-red-hat-display container pt-5 pb-5">
-        <p class="text-center">&#x273B; &#x273B; &#x273B;</p>
-        <h2 class="text-center fw-bolder">Classic Croissants</h2>
-        <div class="row mt-4">
-          <div class="col-sm-6">
+    <main class="mt-4">
+      <div class="font-red-hat-display container mt-5">
+        <h2 class="text-center fw-bolder brown-color">Classic Croissants</h2>
+        <div class="row mt-4 align-items-center">
+          <div class="col-md-6">
             <img
-              src="/images/recipe-1.jpg"
+              src="/images/recipe-gor-1.jpg"
               alt="Classic Croissants"
-              class="recipe-img img-fluid rounded-2"
+              class="recipe-img img-fluid rounded-3"
             />
           </div>
-          <div class="col-sm-6">
-            <h3 class="mt-3 mt-md-5 mt-sm-1">Ingredients:</h3>
-            <ul>
+          <div class="col-md-6">
+            <h3 class="mt-md-0 mt-3">Ingredients:</h3>
+            <ul class="mb-0">
               <li>1 cube of fresh yeast (approximately 42g)</li>
               <li>1/4 cup of warm milk</li>
               <li>2 1/4 cups of all-purpose flour</li>
@@ -81,13 +145,13 @@
               <li>1 teaspoon of salt</li>
               <li>1 cup (2 sticks) of softened unsalted butter</li>
               <li>1 egg</li>
-              <li>1 egg for egg wash</li>
-              <li>Vanilla sugar (for sprinkling)</li>
+              <li>1 egg for brushing the top of the croissants</li>
+              <li>vanilla sugar (for sprinkling)</li>
             </ul>
           </div>
-          <div class="col-sm-12 mt-3">
+          <div class="col-md-12 mt-3">
             <h3>Instructions:</h3>
-            <ol>
+            <ol class="mb-0">
               <li>
                 Dissolve the yeast in warm milk and add a bit of sugar. Wait for
                 the yeast to dissolve and start foaming.
@@ -131,28 +195,34 @@
             </ol>
           </div>
         </div>
-        <p class="text-center mt-4">&#x273B; &#x273B; &#x273B;</p>
-        <h2 class="text-center fw-bolder">Chocolate Croissants</h2>
-        <div class="row mt-4">
-          <div class="col-sm-6">
-            <h3 class="mt-3 mt-md-5 mt-sm-1">Ingredients:</h3>
-            <ul>
-              <li>1 batch of croissant dough (as above)</li>
-              <li>100g dark chocolate, chopped into chunks</li>
-              <li>1 egg for egg wash</li>
-              <li>Vanilla sugar (for sprinkling)</li>
-            </ul>
-          </div>
-          <div class="col-sm-6">
+      </div>
+      <div class="wave-separator">
+        <div class="wave-1"></div>
+        <div class="wave-2"></div>
+      </div>
+      <div class="font-red-hat-display container mt-5">
+        <h2 class="text-center fw-bolder brown-color">Chocolate Croissants</h2>
+        <div class="row mt-4 align-items-center">
+          <div class="col-md-6">
             <img
-              src="/images/recipe-2.jpg"
+              src="/images/recipe-gor-2.jpg"
               alt="Chocolate Croissants"
-              class="recipe-img img-fluid rounded-2"
+              class="recipe-img img-fluid rounded-3"
             />
           </div>
-          <div class="col-sm-12 mt-3">
+          <div class="col-md-6">
+            <h3 class="mt-md-0 mt-3">Ingredients:</h3>
+            <ul class="mb-0">
+              <li>1 batch of croissant dough (as above)</li>
+              <li>100g dark chocolate, chopped into chunks</li>
+              <li>1 egg for brushing the top of the croissants</li>
+              <li>vanilla sugar (for sprinkling)</li>
+            </ul>
+          </div>
+
+          <div class="col-md-12 mt-3">
             <h3>Instructions:</h3>
-            <ol>
+            <ol class="mb-0">
               <li>
                 Prepare the croissant dough using the recipe provided above.
               </li>
@@ -176,42 +246,28 @@
             </ol>
           </div>
         </div>
-        <p class="text-center mt-4">&#x273B; &#x273B; &#x273B;</p>
       </div>
-      <div class="custom-gradient font-display">
+      <!--! Order croissants -->
+      <div class="custom-gradient font-display mt-5 position-relative">
+        <div class="banner-wave-top"></div>
         <div class="container col-sm-9 pt-5 pb-5 text-center">
-          <p class="fs-4">
-            Enjoy freshly made croissants hassle-free! <br />Experience
-            authentic French pastry without the effort. <br />Buy them at our
-            store!
+          <p class="fs-4 font-handwriting pt-5">
+            "Save your time and savor enjoy freshly made croissants without any
+            effort!"
           </p>
-          <button type="button" class="btn btn-outline-dark">Order</button>
+          <button type="button" class="btn btn-dark mt-2">
+            Order desserts
+          </button>
         </div>
       </div>
     </main>
 
-    <footer class="font-red-hat-display mt-5 pt-3 pb-3 border-top">
-      <div class="flex-grow-0 flex-shrink-0 mb-2">
-        <!-- <p class="text-center m-0">💛💙</p> -->
-        <!-- <a
-          href=""
-          target="_blank"
-          rel="noopener noreferrer nofollow"
-          class="link-secondary justify-content-center align-items-center d-flex link-underline-opacity-0"
-          ><svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            fill="currentColor"
-            class="bi bi-github me-1"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
-            />
-          </svg>
-          <p class="cardText m-0">Open-source code, by Tasita</p>
-        </a> -->
+    <footer class="font-red-hat-display pt-3 pb-3 border-top">
+      <div class="container flex-grow-0 flex-shrink-0 mb-2">
+        <p class="text-center text-secondary m-0">
+          Site designed and made by Tasita. Copyright © Tasita®. All rights
+          reserved.
+        </p>
         <a
           href="https://www.linkedin.com/in/tasita/"
           target="_blank"
