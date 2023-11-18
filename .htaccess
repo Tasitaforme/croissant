@@ -1,0 +1,7 @@
+RewriteEngine On RewriteCond %{HTTP_HOST}
+^www\.homemade-croissants.netlify.app\.com [NC] RewriteRule ^(.*)$
+https://homemade-croissants.netlify.app/$1 [L,R=301]
+
+<IfModule mod_expires.c>
+  ExpiresActive On ExpiresDefault "access plus 1 month"
+</IfModule>
