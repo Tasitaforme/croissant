@@ -13,6 +13,15 @@ body {
 .brown-color {
   color: #bc7847;
 }
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:hover,
+.navbar-toggler:active,
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
 .header-gradient-bg {
   background: linear-gradient(273deg, #ffedb4, #ffcf86);
   background-size: 400% 400%;
@@ -61,13 +70,6 @@ body {
     background-position: 0 0;
   }
 }
-
-/* @media screen and (min-width: 576px) {
-  .header-gradient-bg,
-  .header-home {
-    min-height: 640px;
-  }
-} */
 
 .custom-gradient {
   background: linear-gradient(273deg, #d2e3fc, #fdfdff);
@@ -165,4 +167,8 @@ body {
 .link {
   text-decoration: none;
   color: inherit;
+  transition: color 250ms ease-in-out;
+}
+.link:hover {
+  color: #bc7847;
 }
